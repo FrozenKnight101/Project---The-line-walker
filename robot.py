@@ -5,7 +5,7 @@ import json
 import paho.mqtt.client as mqtt
 import requests
 
-
+#Referenceed from SIT310
 class ReadLine:
     def __init__(self, s):
         self.buf = bytearray()
